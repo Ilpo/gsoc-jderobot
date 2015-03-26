@@ -1,0 +1,44 @@
+iplo@x1kaks5:~/gsoc/jderobot/maze$ cat maze.txt
+##.##.#
+#..##.#
+#.#####
+#..####
+#######
+iplo@x1kaks5:~/gsoc/jderobot/maze$ ./maze maze.txt
+6
+##0##.#
+#21##.#
+#3#####
+#45####
+#######
+iplo@x1kaks5:~/gsoc/jderobot/maze$ cat maze2.txt
+..##.
+#..##
+#.###
+.....
+iplo@x1kaks5:~/gsoc/jderobot/maze$ ./maze maze2.txt
+8
+01##.
+#2.##
+#3###
+.4567
+iplo@x1kaks5:~/gsoc/jderobot/maze$ cat maze3.txt
+#.#......######
+#.####.########
+#...##.########
+##.###.......##
+...#########.##
+#####........##
+.##.#####.#.###
+.##.#######.###
+iplo@x1kaks5:~/gsoc/jderobot/maze$ ./maze maze3.txt
+22
+#.#0123..######
+#.####4########
+#...##5########
+##.###6789012##
+...#########3##
+#####10987654##
+.##.#####.#.###
+.##.#######.###
+iplo@x1kaks5:~/gsoc/jderobot/maze$ 
