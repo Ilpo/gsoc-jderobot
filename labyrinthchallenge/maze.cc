@@ -16,7 +16,7 @@ In such a case, finding the longest path is a much harder problem.
 Pathfinding algorithm
 
 Path lengths are determined using the following steps:
-Step 1. Find next hole. (moving left to right ant top to bottom)
+Step 1. Find next hole. (moving left to right and top to bottom)
 Step 2. Mark it with number 0.
 Step 3. Mark adjacent(unmarked) holes with previous number + 1.
 Step 4. Repeat step 3 for all marked holes.
